@@ -1,3 +1,3 @@
 FROM scratch
 ADD rootfs.tar.gz /
-CMD ["/bin/bash"]
+CMD ["/usr/bin/linux32", "/bin/bash"]
